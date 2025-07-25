@@ -240,3 +240,33 @@ footer {
         padding: 10px;
     }
 }
+/* SKILLS, EXTRA-CURRICULAR, INTERESTS
+-------------------------------------------*/
+.skills-section {
+    background-color: #f0f8ff;
+    border-left: 5px solid #005f73;
+    padding: 20px;
+    border-radius: 8px;
+}
+.extracurricular-section {
+    background-color: #fefae0;
+    border-left: 5px solid #bb3e03;
+    padding: 20px;
+    border-radius: 8px;
+}
+.interests-section {
+    background-color: #e0f7fa;
+    border-left: 5px solid #0a9396;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+/* Media Queries */
+@media screen and (max-width: 650px) {
+    .skills-section,
+    .extracurricular-section,
+    .interests-section {
+        padding: 15px;
+        border-left-width: 3px;
+    }
+}
